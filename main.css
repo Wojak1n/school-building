@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.background{
+     width: 100vw;
+     height: 100vh;
+}
+.container{
+    width: 100vw;
+     height: 100vh;
+     position: relative;
+
+}
+.sky{
+    position: absolute;
+    background-color: #45a8ec;
+    height: 60%;
+    width: 100%;
+    z-index: -1;
+
+}
+.ground{
+    position: absolute;
+    background-color: #e8d7bb;
+    height: 40%;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+    
+}
+.sidewalk-left{
+    position: absolute;
+    background-color: #f7eeb5;
+    height: 3vh;
+    width: 30vw;
+    bottom: 25vh;
+    left: 0vh;
+}
+.sidewalktop-left{
+    position: absolute;
+    
+width: 2vw;
+    
+height: 15vh;
+    
+background-color: #f7eeb5;
+    
+bottom: 0vh;
+    
+left: 30vw;
+
+}
+.sidewalk-left-shadow{
+    position: absolute;
+    background-color: #d4c4aa;
+    height: 2vh;
+    width: 32vw;
+    bottom: -2vh;
+    left: 0vw;
+}
+.sidewalk-right{
+    position: absolute;
+    background-color: #f7eeb5;
+    height: 3vh;
+    width: 30vw;
+    bottom: 25vh;
+    /* left: 119vh; */
+    right: 0vw;
+}
+.sidewalktop-right{
+    
+position: absolute;
+    
+width: 2vw;
+    
+height: 15vh;
+    
+background-color: #f7eeb5;
+    
+bottom: 0vh;
+    
+left: -2vw;
+}
+.sidewalk-right-shadow{
+    position: absolute;
+    position: absolute;
+    background-color: #d4c4aa;
+    height: 2vh;
+    width: 32vw;
+    bottom: -2vh;
+    left: -2vw;
+}
+.grass-right{
+    position: absolute;
+    background-color: #bddb38;
+    height: 12vh;
+    width: 30vw;
+    bottom: 28vh;
+    left: 70vw;
+}
+.grass-left{
+    position: absolute;
+    background-color: #bddb38;
+    height: 12vh;
+    width: 31vw;
+    bottom: 28vh;
+    left: -1vw;
+}
+.building{
+    position: relative;
+}
+.building-right .base{
+    position: absolute;
+    height: 10vh;
+    width: 10vw;
+    background-color: white;
+    bottom: 40vh;
+    left: 136vh;
+}
