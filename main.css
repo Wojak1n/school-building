@@ -94,6 +94,9 @@
 .building {
     position: relative;
 }
+.building-right{
+    position: relative;
+}
 
 .building-right .base {
     position: absolute;
@@ -139,6 +142,96 @@
     right: 139px;
     background-color: #ab4a1f;
 }
+.square1{
+    position: absolute;
+    height: 10px;
+    border-radius: 0px 100px 100px 0px;
+    width: 20px;
+    background-color: #be4a19;
+    bottom: -186px;
+    right: 119px;
+}
+.square2{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    border-radius: 0px 100px 100px 0px;
+    bottom: -223px;
+    right: 119px;
+}
+.square3{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    border-radius: 0px 100px 100px 0px;
+    background-color: #be4a19;
+    bottom: -259px;
+    right: 119px;
+}
+.square4{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    border-radius: 0px 100px 100px 0px;
+    bottom: -294px;
+    right: 119px;
+}
+.square5{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    border-radius: 0px 100px 100px 0px;
+    bottom: -326px;
+    right: 119px;
+}
+.square6{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    border-radius: 0px 100px 100px 0px;
+    background-color: #be4a19;
+    bottom: -361px;
+    right: 119px;
+}
+.square7{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    border-radius: 0px 100px 100px 0px;
+    bottom: -402px;
+    right: 119px;
+}
+.square8{
+    position: absolute;
+    height: 10px;
+    border-radius: 0px 100px 100px 0px;
+    width: 20px;
+    background-color: #be4a19;
+    bottom: -443px;
+    right: 119px;
+}
+.square9{
+    position: absolute;
+    border-radius: 0px 100px 100px 0px;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    bottom: -481px;
+    right: 119px;
+}
+.square10{
+    position: absolute;
+    border-radius: 0px 100px 100px 0px;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    top: 507px;
+    right: 119px;
+}
 
 .building-left .back {
     position: absolute;
@@ -147,6 +240,116 @@
     bottom: -525px;
     left: 139px;
     background-color: #ab4a1f;
+}
+.square11{
+    position: absolute;
+    height: 10px;
+    border-radius: 100px 0px 0px 100px;
+    width: 20px;
+    background-color: #be4a19;
+    bottom: -186px;
+    left: 119px;
+    z-index: 2;
+
+}
+.square12{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    border-radius: 100px 0px 0px 100px;
+    bottom: -223px;
+    left: 119px;
+    z-index: 2;
+
+}
+.square13{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    border-radius: 100px 0px 0px 100px;
+    background-color: #be4a19;
+    bottom: -259px;
+    left: 119px;
+    z-index: 2;
+
+}
+.square14{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    border-radius: 100px 0px 0px 100px;
+    bottom: -294px;
+    left: 119px;
+    z-index: 2;
+
+}
+.square15{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    border-radius: 100px 0px 0px 100px;
+    bottom: -326px;
+    left: 119px;
+    z-index: 2;
+
+}
+.square16{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    border-radius: 100px 0px 0px 100px;
+    background-color: #be4a19;
+    bottom: -361px;
+    left: 119px;
+    z-index: 2;
+
+}
+.square17{
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    border-radius: 100px 0px 0px 100px;
+    bottom: -402px;
+    left: 119px;
+    z-index: 2;
+
+}
+.square18{
+    position: absolute;
+    height: 10px;
+    border-radius: 100px 0px 0px 100px;
+    width: 20px;
+    background-color: #be4a19;
+    bottom: -443px;
+    left: 119px;
+    z-index: 2;
+
+}
+.square19{
+    position: absolute;
+    border-radius: 100px 0px 0px 100px;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    bottom: -481px;
+    left: 119px;
+    z-index: 1;
+
+}
+.square20{
+    position: absolute;
+    border-radius: 100px 0px 0px 100px;
+    height: 10px;
+    width: 20px;
+    background-color: #be4a19;
+    top: 507px;
+    left: 119px;
+    z-index: 2;
+
 }
 
 .building-middle .back {
@@ -223,8 +426,7 @@
     z-index: 1;
     border-radius: 30%;
 }
-.canneright-right{
-        position: absolute;
+.canneright-right{    position: absolute;
         --b: 13px; /* the boder thickness */
         --a: 127deg; /* control the progression */
         width: 53px;
@@ -266,14 +468,6 @@
     rotate: 172deg;
 }
 
-.circle1 {
-
-}
-
-.circle1 {}
-
-.circle3 {}
-
 .tree-left {
     position: relative;
 
@@ -300,12 +494,6 @@
     background: #b6d329;
     z-index: 2;
 }
-
-.circle4 {}
-
-.circle5 {}
-
-.circle6 {}
 
 .canneleft {
     position: absolute;
@@ -337,5 +525,7 @@
     bottom: 156px;
     right: -14px;
     rotate: 172deg;
-
+}
+.windows{
+    position: relative;
 }
