@@ -24,7 +24,7 @@
     height: 11px;
     width: 461px;
     right: 1px;
-    bottom: 198px;
+    bottom: 206px;
     background-color: #d4c4aa;
 }
 
@@ -33,7 +33,7 @@
     height: 18px;
     width: 445px;
     right: 1px;
-    bottom: 209px;
+    bottom: 218px;
     background-color: #ffeccc;
 }
 
@@ -51,7 +51,7 @@
     height: 11px;
     width: 461px;
     left: 0px;
-    bottom: 198px;
+    bottom: 207px;
     background-color: #d4c4aa;
 }
 
@@ -60,7 +60,7 @@
     height: 18px;
     width: 445px;
     left: 0px;
-    bottom: 209px;
+    bottom: 218px;
     background-color: #ffeccc;
 }
 
@@ -78,7 +78,7 @@
     position: absolute;
     height: 129px;
     width: 445px;
-    bottom: 227px;
+    bottom: 236px;
     right: 1px;
     background-color: #bcdb37;
 }
@@ -87,7 +87,7 @@
     position: absolute;
     height: 129px;
     width: 445px;
-    bottom: 227px;
+    bottom: 236px;
     background-color: #bcdb37;
 }
 
@@ -99,7 +99,7 @@
     position: absolute;
     height: 22px;
     width: 463px;
-    bottom: -533px;
+    bottom: -547px;
     right: 107px;
     background-color: #fefefe;
 }
@@ -109,16 +109,16 @@
     height: 389px;
     width: 32px;
     right: 107px;
-    bottom: -533px;
+    bottom: -547px;
     background-color: #e95c20;
 }
 
 .building-left .base {
     position: absolute;
     height: 22px;
-    width: 463px;
-    bottom: -533px;
-    left: 107px;
+    width: 461px;
+    bottom: -547px;
+    left: 108px;
     background-color: #fefefe;
 }
 
@@ -127,16 +127,15 @@
     height: 389px;
     width: 32px;
     left: 107px;
-    bottom: -533px;
+    bottom: -547px;
     background-color: #e95c20;
-
 }
 
 .building-right .back {
     position: absolute;
     height: 364px;
     width: 430px;
-    bottom: -511px;
+    bottom: -525px;
     right: 139px;
     background-color: #ab4a1f;
 }
@@ -145,17 +144,16 @@
     position: absolute;
     height: 364px;
     width: 430px;
-    bottom: -511px;
+    bottom: -525px;
     left: 139px;
     background-color: #ab4a1f;
-
 }
 
 .building-middle .back {
     position: absolute;
     height: 454px;
-    width: 542px;
-    bottom: -533px;
+    width: 782px;
+    bottom: -547px;
     left: 569px;
     background-color: #ab4a1f;
 }
@@ -166,7 +164,7 @@
     background-color: white;
     height: 13px;
     width: 474px;
-    bottom: -147px;
+    bottom: -161px;
     right: 95px;
 }
 
@@ -175,9 +173,9 @@
     border-radius: 150px 150px 31px 32px;
     background-color: white;
     height: 13px;
-    width: 560px;
-    bottom: -79px;
-    right: 558px;
+    width: 825px;
+    bottom: -93px;
+    right: 552px;
 }
 
 .building-left .haut {
@@ -186,33 +184,86 @@
     background-color: white;
     height: 13px;
     width: 474px;
-    bottom: -147px;
+    bottom: -162px;
     left: 95px;
 }
 
 .tree-right {
     position: relative;
 }
-
+.flower-right-front{
+    position: absolute;
+    bottom: -642px;
+    left: 1684px;
+    height: 119px;
+    aspect-ratio: 1.8;
+    --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+    mask: var(--g) 100% 101%/33% 60%,var(--g) 70% 0/50% 94%,var(--g) 0 100%/30% 61%,var(--g) 21% 18%/26% 50%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+    background: #d3f82e;
+    z-index: 3;
+}
+.flower-right-back{
+    position: absolute;
+    bottom: -606px;
+    left: 1520px;
+    height: 131px;
+    aspect-ratio: 1.8;
+    --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+    mask: var(--g) 100% 101%/33% 60%,var(--g) 70% 0/50% 94%,var(--g) 0 100%/30% 61%,var(--g) 21% 18%/26% 50%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+    background: #b6d329;
+    z-index: 2;
+}
 .canneright {
     position: absolute;
-    height: 166px;
+    height: 208px;
     width: 23px;
     background-color: #a3623c;
     right: 71px;
     bottom: -610px;
+    z-index: 1;
+    border-radius: 30%;
+}
+.canneright-right{
+        position: absolute;
+        --b: 13px; /* the boder thickness */
+        --a: 127deg; /* control the progression */
+        width: 53px;
+        aspect-ratio: 1;
+        padding: var(--b);
+        border-radius: 50%;
+        background: #a2623b;
+        --_g:/var(--b) var(--b) no-repeat
+          radial-gradient(50% 50%,#000 97%,#0000);
+        mask: top var(--_g),
+          calc(50% + 50%*sin(var(--a))) 
+          calc(50% - 50%*cos(var(--a))) var(--_g),
+          linear-gradient(#0000 0 0) content-box intersect,
+          conic-gradient(#000 var(--a),#0000 0);
+        bottom: 106px;
+        right: -44px;
+        rotate: 71deg;
 }
 
 
 .canneright-left {
     position: absolute;
-    border-radius: ;
-    border-top: 2px solid #a3623c;
-    border-right: 2px solid #a3623c;
-    bottom: ;
-    left: ;
-    rotate: ;
-
+    --b: 13px; /* the boder thickness */
+    --a: 97deg; /* control the progression */
+    width: 54px;
+    aspect-ratio: 1;
+    padding: var(--b);
+    border-radius: 50%;
+    background: #a2623b;
+    --_g:/var(--b) var(--b) no-repeat
+      radial-gradient(50% 50%,#000 97%,#0000);
+    mask: top var(--_g),
+      calc(50% + 50%*sin(var(--a))) 
+      calc(50% - 50%*cos(var(--a))) var(--_g),
+      linear-gradient(#0000 0 0) content-box intersect,
+      conic-gradient(#000 var(--a),#0000 0);
+    bottom: 156px;
+    right: -14px;
+    rotate: 172deg;
 }
 
 .circle1 {
@@ -227,6 +278,28 @@
     position: relative;
 
 }
+.flower-left-front{
+    position: absolute;
+    bottom: -642px;
+    left: 21px;
+    height: 119px;
+    aspect-ratio: 1.8;
+    --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+    mask: var(--g) 100% 101%/33% 60%,var(--g) 70% 0/50% 94%,var(--g) 0 100%/30% 61%,var(--g) 21% 18%/26% 50%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+    background: #d3f82e;
+    z-index: 3;
+}
+.flower-left-back{
+    position: absolute;
+    bottom: -606px;
+    left: 128px;
+    height: 131px;
+    aspect-ratio: 1.8;
+    --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+    mask: var(--g) 100% 101%/33% 60%,var(--g) 70% 0/50% 94%,var(--g) 0 100%/30% 61%,var(--g) 21% 18%/26% 50%,linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+    background: #b6d329;
+    z-index: 2;
+}
 
 .circle4 {}
 
@@ -236,4 +309,33 @@
 
 .canneleft {
     position: absolute;
+    
+    height: 208px;
+    width: 23px;
+    background-color: #a3623c;
+    left: 71px;
+    bottom: -610px;
+    z-index: 1;
+    border-radius: 30%;
+}
+.canneleft-left{
+    position: absolute;
+    --b: 13px; /* the boder thickness */
+    --a: 97deg; /* control the progression */
+    width: 54px;
+    aspect-ratio: 1;
+    padding: var(--b);
+    border-radius: 50%;
+    background: #a2623b;
+    --_g:/var(--b) var(--b) no-repeat
+      radial-gradient(50% 50%,#000 97%,#0000);
+    mask: top var(--_g),
+      calc(50% + 50%*sin(var(--a))) 
+      calc(50% - 50%*cos(var(--a))) var(--_g),
+      linear-gradient(#0000 0 0) content-box intersect,
+      conic-gradient(#000 var(--a),#0000 0);
+    bottom: 156px;
+    right: -14px;
+    rotate: 172deg;
+
 }
