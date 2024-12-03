@@ -608,6 +608,16 @@
 .window-left{
 
 }
+.win5-tip{
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 156px;
+    /* right: 460px; */
+    left: 390px;
+    bottom: -182px;
+    border-radius: 100px 100px 100px 100px;
+}
 .window-left .win5{
     position: absolute;
     border: 5px solid white;
@@ -616,6 +626,9 @@
     width: 125px;
     left: 400px;
     bottom: -307px;
+}
+.win6-tip{
+   
 
 }
 .window-left .win6{
@@ -628,6 +641,9 @@
     bottom: -307px;
     
 }
+.win7-tip{
+    
+}
 .window-left .win7{
     position: absolute;
     border: 5px solid white;
@@ -637,6 +653,10 @@
     left: 400px;
     bottom: -493px;
     
+}
+.win8-tip{
+    
+
 }
 .window-left .win8{
     position: absolute;
