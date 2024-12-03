@@ -613,7 +613,6 @@
     background-color: black;
     height: 10px;
     width: 156px;
-    /* right: 460px; */
     left: 390px;
     bottom: -182px;
     border-radius: 100px 100px 100px 100px;
@@ -628,6 +627,13 @@
     bottom: -307px;
 }
 .win6-tip{
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 155px;
+    left: 165px;
+    bottom: -182px;
+    border-radius: 100px 100px 100px 100px;
    
 
 }
@@ -642,6 +648,13 @@
     
 }
 .win7-tip{
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 155px;
+    left: 390px;
+    bottom: -368px;
+    border-radius: 100px 100px 100px 100px;
     
 }
 .window-left .win7{
@@ -655,6 +668,13 @@
     
 }
 .win8-tip{
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 155px;
+    left: 165px;
+    bottom: -368px;
+    box-shadow: 32px 0px -22px rgba(0,0,0,0.75);
     
 
 }
