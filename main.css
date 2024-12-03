@@ -529,3 +529,122 @@
 .windows{
     position: relative;
 }
+.window-right{
+
+}
+.win1-tip{
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 155px;
+    right: 390px;
+    bottom: -182px;
+    border-radius: 100px 100px 100px 100px;
+}
+.window-right .win1{
+    position: absolute;
+    border: 5px solid white;
+    background-color: #3e768e;
+    height: 115px;
+    width: 125px;
+    right: 400px;
+    bottom: -307px;
+}
+.win2-tip{
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 155px;
+    right: 165px;
+    bottom: -182px;
+    border-radius: 100px 100px 100px 100px;
+
+}
+.window-right .win2{
+    position: absolute;
+    border: 5px solid white;
+    background-color: #3e768e;
+    height: 115px;
+    width: 125px;
+    right: 174px;
+    bottom: -307px;
+}
+.win3-tip{
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 155px;
+    right: 390px;
+    bottom: -368px;
+    border-radius: 100px 100px 100px 100px;
+}
+.window-right .win3{
+    position: absolute;
+    border: 5px solid white;
+    background-color: #3e768e;
+    height: 115px;
+    width: 125px;
+    right: 400px;
+    bottom: -493px;
+}
+.win4-tip{
+    position: absolute;
+    background-color: black;
+    height: 10px;
+    width: 155px;
+    right: 165px;
+    bottom: -368px;
+    border-radius: 100px 100px 100px 100px;
+}
+.window-right .win4{
+    position: absolute;
+    border: 5px solid white;
+    background-color: #3e768e;
+    height: 115px;
+    width: 125px;
+    right: 174px;
+    bottom: -493px;
+}
+.window-left{
+
+}
+.window-left .win5{
+    position: absolute;
+    border: 5px solid white;
+    background-color: #3e768e;
+    height: 115px;
+    width: 125px;
+    left: 400px;
+    bottom: -307px;
+
+}
+.window-left .win6{
+    position: absolute;
+    border: 5px solid white;
+    background-color: #3e768e;
+    height: 115px;
+    width: 125px;
+    left: 174px;
+    bottom: -307px;
+    
+}
+.window-left .win7{
+    position: absolute;
+    border: 5px solid white;
+    background-color: #3e768e;
+    height: 115px;
+    width: 125px;
+    left: 400px;
+    bottom: -493px;
+    
+}
+.window-left .win8{
+    position: absolute;
+    border: 5px solid white;
+    background-color: #3e768e;
+    height: 115px;
+    width: 125px;
+    left: 174px;
+    bottom: -493px;
+    
+}
