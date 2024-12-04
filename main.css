@@ -399,7 +399,113 @@ body{
     bottom: -162px;
     left: 95px;
 }
+.midddle-base-right{
+    position: absolute;
+    bottom: -547px;
+    right: 569px;
+    height: 22px;
+    width: 226px;
+    background-color: white;
+    z-index: 3;
+    box-shadow: 133px 0px 11px -6px rgba(0,0,0,0.25) inset;
+}
+.middle-base-left{
+    position: absolute;
+    bottom: -547px;
+    left: 569px;
+    height: 22px;
+    width: 226px;
+    background-color: white;
+    z-index: 3;
+    box-shadow: -122px 0px 11px -5px rgba(0,0,0,0.25) inset;
+}
+.middle-top-right{
+    position: absolute;
+    bottom: -547px;
+    right: 795px;
+    height: 189px;
+    width: 30px;
+    background-color: white;
+    z-index: 3;
+}
+.middle-top-left{
+    position: absolute;
+    bottom: -547px;
+    left: 795px;
+    height: 189px;
+    width: 30px;
+    background-color: white;
+    z-index: 3;
 
+}
+.middle-haut{
+    position: absolute;
+    bottom: -358px;
+    left: 795px;
+    height: 34px;
+    width: 330px;
+    background-color: white;
+    z-index: 3;
+}
+.midddle-top-right-inside{
+    position: absolute;
+    bottom: -547px;
+    left: 1074px;
+    height: 189px;
+    width: 20px;
+    background-color: black;
+    z-index: 3;
+}
+.midddle-top-left-inside{
+    position: absolute;
+    bottom: -547px;
+    left: 826px;
+    height: 189px;
+    width: 20px;
+    background-color: black;
+    z-index: 3;
+}
+.middle-haut-inside{
+    position: absolute;
+    bottom: -382px;
+    left: 795px;
+    height: 34px;
+    width: 299px;
+    background-color: black;
+    z-index: 3;
+}
+.door{
+    position: absolute;
+    height: 165px;
+    width: 228px;
+    bottom: -547px;
+    left: 846px;
+    background-color: Emma;
+    z-index: 3;
+}
+.door-top{
+    position: absolute;
+    height: 4px;
+    width: 20px;
+    bottom: -477px;
+    left: 955px;
+    background-color: white;
+    z-index: 3;
+    border: 1px solid black;
+    border-radius: 40%;
+
+
+}
+.door-tip{
+    position: absolute;
+    height: 133px;
+    width: 1px;
+    bottom: -547px;
+    left: 961px;
+    background-color: white;
+    z-index: 3;
+    border-radius: 20px;
+}
 .tree-right {
     position: relative;
 }
@@ -591,7 +697,7 @@ body{
 }
 .win1-tip{
     position: absolute;
-    background-color: black;
+    background-color: #e65e22;
     height: 10px;
     width: 155px;
     right: 390px;
@@ -609,7 +715,7 @@ body{
 }
 .win2-tip{
     position: absolute;
-    background-color: black;
+    background-color: #e65e22;
     height: 10px;
     width: 155px;
     right: 165px;
@@ -628,7 +734,7 @@ body{
 }
 .win3-tip{
     position: absolute;
-    background-color: black;
+    background-color: #e65e22;
     height: 10px;
     width: 155px;
     right: 390px;
@@ -646,7 +752,7 @@ body{
 }
 .win4-tip{
     position: absolute;
-    background-color: black;
+    background-color: #e65e22;
     height: 10px;
     width: 155px;
     right: 165px;
@@ -667,7 +773,7 @@ body{
 }
 .win5-tip{
     position: absolute;
-    background-color: black;
+    background-color: #e65e22;
     height: 10px;
     width: 156px;
     left: 390px;
@@ -685,7 +791,7 @@ body{
 }
 .win6-tip{
     position: absolute;
-    background-color: black;
+    background-color: #e65e22;
     height: 10px;
     width: 155px;
     left: 165px;
@@ -706,7 +812,7 @@ body{
 }
 .win7-tip{
     position: absolute;
-    background-color: black;
+    background-color: #e65e22;
     height: 10px;
     width: 155px;
     left: 390px;
@@ -726,7 +832,7 @@ body{
 }
 .win8-tip{
     position: absolute;
-    background-color: black;
+    background-color: #e65e22;
     height: 10px;
     width: 155px;
     left: 165px;
